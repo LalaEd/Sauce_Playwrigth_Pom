@@ -48,6 +48,7 @@ def test_signin_without_password(setup_tear_down) -> None:
 
 def test_access_products_page_without_login(setup_tear_down) -> None:
     page = setup_tear_down
+    page.goto("https://www.saucedemo.com/inventory.html")
     signin_page = SigninPage(page)
     expect(signin_page.login_error_msg).to_contain_text(
         "Epic sadface: You can only access '/inventory.html' when you are logged in."
