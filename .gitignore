@@ -1,0 +1,82 @@
+# ========================================
+# Python
+# ========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.pot
+*.pyc
+*.sqlite3
+*.db
+*.egg-info/
+*.eggs/
+*.manifest
+*.spec
+*.bak
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.pip/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyInstaller
+dist/
+build/
+
+# Poetry
+poetry.lock
+
+# ========================================
+# pytest
+# ========================================
+.cache/
+.pytest_cache/
+*.cover
+*.coverage
+.coverage.*
+coverage.xml
+nosetests.xml
+test-results/
+
+# pytest-html / Allure
+reports/
+report.html
+allure-results/
+allure-report/
+
+# ========================================
+# Playwright
+# ========================================
+playwright-report/
+test-results/
+trace.zip
+
+# ========================================
+# VSCode / JetBrains / Other IDEs
+# ========================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ========================================
+# OS-Specific
+# ========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================================
+# Git
+# ========================================
+*.orig
+*.swp
+*.swo
+*.rej
